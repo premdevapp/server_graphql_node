@@ -1,0 +1,170 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "node-graphql-reactjs",
+      "version": "0.0.0",
+      "private": true,
+      "scripts": {
+        "start": "node ./bin/www"
+      },
+      "dependencies": {
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "express": "~4.16.1",
+        "morgan": "~1.9.1"
+      }
+    },
+    "prefix": "D:\\workspace\\node_graphQl_reactjs"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "D:\\.pnpm-store\\v3",
+    "virtualStoreDir": "D:\\workspace\\node_graphQl_reactjs\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "D:\\workspace\\node_graphQl_reactjs",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cookie-parser/1.4.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "cookie-parser",
+      "rawSpec": "~1.4.4"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie-parser/1.4.5",
+    "requester": "D:\\workspace\\node_graphQl_reactjs",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/morgan/1.9.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "morgan",
+      "rawSpec": "~1.9.1"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/morgan/1.9.1",
+    "requester": "D:\\workspace\\node_graphQl_reactjs",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/2.6.9",
+    "wanted": {
+      "dependentId": ".",
+      "name": "debug",
+      "rawSpec": "~2.6.9"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "requester": "D:\\workspace\\node_graphQl_reactjs",
+    "status": "resolved"
+  },
+  "10 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/morgan/1.9.1",
+    "size": 9418,
+    "status": "started"
+  },
+  "11 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/cookie-parser/1.4.5",
+    "size": 3984,
+    "status": "started"
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/nodemon/2.0.14",
+    "wanted": {
+      "dependentId": ".",
+      "name": "nodemon",
+      "rawSpec": "latest"
+    }
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/nodemon/2.0.14",
+    "requester": "D:\\workspace\\node_graphQl_reactjs",
+    "status": "resolved"
+  },
+  "14 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/express/4.16.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "express",
+      "rawSpec": "~4.16.1"
+    }
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.16.4",
+    "requester": "D:\\workspace\\node_graphQl_reactjs",
+    "status": "resolved"
+  },
+  "16 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/debug/2.6.9",
+    "size": 16514,
+    "status": "started"
+  },
+  "17 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/express/4.16.4",
+    "size": 54259,
+    "status": "started"
+  },
+  "18 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/nodemon/2.0.14",
+    "size": 57127,
+    "status": "started"
+  },
+  "19 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/graphql/16.0.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "graphql",
+      "rawSpec": "latest"
+    }
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/graphql/16.0.1",
+    "requester": "D:\\workspace\\node_graphQl_reactjs",
+    "status": "resolved"
+  },
+  "21 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mongoose/6.0.12",
+    "wanted": {
+      "dependentId": ".",
+      "name": "mongoose",
+      "rawSpec": "latest"
+    }
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mongoose/6.0.12",
+    "requester": "D:\\workspace\\node_graphQl_reactjs",
+    "status": "resolved"
+  },
+  "23 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "apollo-express-server is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/apollo-express-server"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "apollo-express-server",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/apollo-express-server: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/apollo-express-server: Not Found - 404\n    at RetryOperation._fn (C:\\Users\\engpr\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.20.1\\node_modules\\pnpm\\dist\\pnpm.cjs:84881:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
